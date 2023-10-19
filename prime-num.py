@@ -1,4 +1,3 @@
-t = []
 x = int(input("enter a number : "))
 for i in range (1,x) :
     a = 0
@@ -6,5 +5,4 @@ for i in range (1,x) :
         if i % j == 0 :
             a = a + 1
     if a == 2 :
-        t.append(i)
-print("prime numbers less than",x,"are :",t)
+        print(i)
